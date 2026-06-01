@@ -4,7 +4,7 @@
 // =============================================
 const { useState, useReducer, useEffect, useCallback } = React;
 
-const API_BASE = "./index.php";
+const API_BASE = "/index.php";
 
 // ---- API helpers ----
 async function apiFetch(resource, id = null, method = "GET", body = null) {
