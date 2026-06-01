@@ -1,0 +1,147 @@
+{
+    "director": [
+        {
+            "id": "1",
+            "name": "Крістофер Нолан"
+        },
+        {
+            "id": "2",
+            "name": "Квентін Тарантіно"
+        },
+        {
+            "id": "3",
+            "name": "Мартін Скорсезе"
+        },
+        {
+            "id": "4",
+            "name": "Стівен Спілберг"
+        }
+    ],
+    "genre": [
+        {
+            "id": "1",
+            "name": "Драма"
+        },
+        {
+            "id": "2",
+            "name": "Бойовик"
+        },
+        {
+            "id": "3",
+            "name": "Комедія"
+        },
+        {
+            "id": "4",
+            "name": "Жахи"
+        },
+        {
+            "id": "5",
+            "name": "Мелодрама"
+        },
+        {
+            "id": "6",
+            "name": "Детектив"
+        },
+        {
+            "id": "7",
+            "name": "Фантастика"
+        },
+        {
+            "id": "8",
+            "name": "Трилер"
+        }
+    ],
+    "studio": [
+        {
+            "id": "1",
+            "name": "Warner Bros."
+        },
+        {
+            "id": "2",
+            "name": "Universal Pictures"
+        },
+        {
+            "id": "3",
+            "name": "Paramount Pictures"
+        },
+        {
+            "id": "4",
+            "name": "Sony Pictures"
+        }
+    ],
+    "film": [
+        {
+            "id": "1",
+            "title": "Темний лицар",
+            "year": "2008",
+            "rating": "9.0",
+            "duration": "152",
+            "description": "Бетмен бореться з Джокером у Готем-Сіті.",
+            "genre_id": "2",
+            "director_id": "1",
+            "studio_id": "1",
+            "status": "Переглянуто"
+        },
+        {
+            "id": "2",
+            "title": "Кримінальне чтиво",
+            "year": "1994",
+            "rating": "8.9",
+            "duration": "154",
+            "description": "Переплетені кримінальні історії у Лос-Анджелесі.",
+            "genre_id": "8",
+            "director_id": "2",
+            "studio_id": "4",
+            "status": "Переглянуто"
+        },
+        {
+            "id": "3",
+            "title": "Начало",
+            "year": "2010",
+            "rating": "8.8",
+            "duration": "148",
+            "description": "Крадіжка ідей із підсвідомості через сни.",
+            "genre_id": "7",
+            "director_id": "1",
+            "studio_id": "1",
+            "status": "Переглянуто"
+        },
+        {
+            "id": "4",
+            "title": "Список Шиндлера",
+            "year": "1993",
+            "rating": "9.0",
+            "duration": "195",
+            "description": "Один чоловік рятує тисячі євреїв під час Голокосту.",
+            "genre_id": "1",
+            "director_id": "4",
+            "studio_id": "3",
+            "status": "Переглянуто"
+        },
+        {
+            "id": "5",
+            "title": "Відступники",
+            "year": "2006",
+            "rating": "8.5",
+            "duration": "151",
+            "description": "Інфільтрація поліцейського в злочинне угруповання.",
+            "genre_id": "6",
+            "director_id": "3",
+            "studio_id": "1",
+            "status": "Планую"
+        },
+        {
+            "title": "Темний ",
+            "year": "2024",
+            "rating": "10",
+            "duration": "200",
+            "description": "Норм",
+            "genre_id": "2",
+            "director_id": "1",
+            "studio_id": "2",
+            "status": "Планую",
+            "id": "6"
+        }
+    ],
+    "messages": []
+}

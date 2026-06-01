@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: cinebase-spa
+    runtime: docker
+    plan: free
+    envVars:
+      - key: DB_HOST
+        value: ""
+      - key: DB_USER
+        value: ""
+      - key: DB_PASS
+        value: ""
+      - key: DB_NAME
+        value: cinebase

@@ -1,0 +1,13 @@
+Options -Indexes
+RewriteEngine On
+
+# Якщо запитується реальний файл (css, js, html, json) — повертаємо як є
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# Якщо запитується реальна директорія — повертаємо як є
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Всі інші запити → index.php
+RewriteRule ^ index.php [L]
